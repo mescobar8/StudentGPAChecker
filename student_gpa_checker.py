@@ -16,7 +16,7 @@ def main():
         # Ask for the first name
         first_name = input("Enter the student's first name: ")
         
-        # Ask for the GPA (float)
+        # Ask for the GPA 
         try:
             gpa = float(input("Enter the student's GPA: "))
         except ValueError:
